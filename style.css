@@ -3,7 +3,29 @@ body {
 }
 
 h1 {
-    color:cornflowerblue;
+    color:black;
+    text-align: center;
+    font-style: italic;
+}
+blockquote {
+    font: Serif;
+    font-size: 1.2em;
+    color:red;
+    text-align: center;
+
+}
+#circut-right{
+    position:absolute;
+    top: 7.5%;
+    left:1%;
+}
+
+#circut-left{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position:absolute;
+    top: 7.5%;
+    left:62%;
 }
 
 body {
